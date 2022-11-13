@@ -1,0 +1,91 @@
+<style>
+.column {
+	 /* flex: 33.33%;*/
+      width:255px;
+	  height: 320px;
+	  padding: 20px;
+	  margin-bottom: 20px;
+
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+
+	  /*background-color: #cccccc;*/
+
+	/*  text-align: center;*/
+
+	}
+	.about {
+        /*make it a bit closer to the heading*/
+        margin-top: -40px;
+	   display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+	}
+    .about p{
+  color:lightslategrey;
+    font-size: 1em;
+        font-family: Garamond, serif;
+
+}
+
+.about h3{
+  color: black;
+font-weight: bold;
+    font-family: Garamond, serif;
+    font-size: larger;
+
+}
+</style>
+
+<section class="relative py-20 ">
+
+         <div class="pt-20 pb-48 container mx-auto px-4 ">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+ <div class="w-full lg:w-6/12 px-4">
+               <h2 class="text-4xl font-semibold text-black">About Us</h2>
+<!--<marquee width="60%" direction="right" height="100px">-->
+                <p class="text-lg leading-relaxed m-4 text-gray-600">
+                    Working with us is a pleasure.
+                </p>
+   <!-- </marquee>-->
+</div>
+            </div>
+    <div class="about">
+                    <div class="column" >
+ <img src="./assets/img/target.svg"style="width:250px; height:250px;margin-bottom:-30px;">
+                    <h3 float="left" color="black">Our Purpose </h3>
+
+                    <p float="left" color="light grey" >
+                       To deliver the best possible solution, that guarantees our Clients a performance increase.
+                    </p>
+
+
+                </div>
+                <div class="column" style="margin-left: 30px; margin-right: 30px;">
+                    <img src="./assets/img/rocket.svg"style="width:250px; height:250px;margin-bottom: -30px;">
+                    <h3 float="left" color="black">Our Vision </h3>
+
+                    <p float="left" color="light grey">
+                        Become the customer's first thought when it comes to the world of Industrial Data Management.
+                    </p>
+
+
+                </div>
+                 <div class="column">
+ <img src="./assets/img/mission.svg"style="width:250px; height:250px;margin-bottom:-30px;">
+                    <h3 float="left" color="black">Our Mission </h3>
+
+                    <p float="left" color="light grey">
+
+
+                     To accompany the Client in the field of data management and provide a reliable and trusted way to manage the data.
+                    </p>
+
+                </div>
+
+                </div>
+         </div>
+
+
+</section>

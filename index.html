@@ -1,0 +1,22 @@
+---
+layout: home
+---
+<div class="text-gray-800 antialiased">
+    <main>
+
+        {%- include landing_block.html -%}
+        {%- include about_us.html -%}
+        {%- include values_block.html -%}
+        {%- include services_block.html -%}
+        {%- include team_block.html -%}
+        {%- include team_skills.html -%}
+        {%- include contact_us.html -%}
+    </main>
+</div>
+
+<script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+</script>

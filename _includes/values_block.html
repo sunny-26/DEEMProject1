@@ -1,0 +1,156 @@
+<style>
+.columnValues {
+	 /* flex: 33.33%;*/
+      width:200px;
+	  /*height: 180px;*/
+    justify-content: center;
+	 /* padding: 15px;*/
+	 /* margin-bottom: 20px;*/
+   /* border: 1px solid lightgrey;
+    border-radius: 8px;*/
+
+	  /*background-color: #cccccc;*/
+
+	/*  text-align: center;*/
+
+	}
+@media (min-width: 1280px){
+    .columnValues:nth-child(even){
+    margin-top: 100px;
+
+}
+}
+@media (max-width: 1279px){
+ .columnValues{
+        margin-bottom: 30px;
+}
+
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    .columnValues:last-child{
+        margin-right: 671px;
+}
+}
+
+
+
+	.values {
+	   display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: -40px;
+
+	}
+    .values p{
+  color:lightslategrey;
+    font-size: 1em;
+
+        font-family: Garamond, serif;
+}
+.values h3{
+  color: black;
+    font-weight: bold;
+    font-family: Garamond, serif;
+   text-align: center;
+    font-size: larger;
+
+}
+
+.values img{
+    margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+
+<section class="relative py-20 ">
+  <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden mt-32 -mt-20"
+          style="height: 80px; transform: translateZ(0px);margin-top:-200px;"
+  >
+    <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+    >
+      <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+      ></polygon>
+    </svg>
+  </div>
+
+  <div class="pt-20 pb-48 container mx-auto px-4 ">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+ <div class="w-full lg:w-6/12 px-4">
+               <h2 class="text-4xl font-semibold text-black">Our Values</h2>
+
+                <p class="text-lg leading-relaxed m-4 text-gray-600">
+
+               Every company is based not only on knowledge and strategies but also on people and their beliefs.
+                </p>
+</div>
+            </div>
+    <div class="values">
+                    <div class="columnValues" >
+ <img src="./assets/img/equality.svg"style="width:120px; height:120px;margin-bottom:15px;border-radius: 50%;">
+                    <h3 float="left" color="black">Equality </h3>
+
+                    <p float="left" color="light grey" >
+                    <!--We believe in everyone and value everyone.-->
+                        Everyone has an opportunity to be heard and valued.
+                    </p>
+
+                </div>
+                <div class="columnValues" style="margin-left: 20px; margin-right: 20px;">
+                    <img src="./assets/img/communication.svg"style="width:120px; height:120px;margin-bottom: 15px;border-radius: 50%;">
+                    <h3 float="left" color="black">Communication </h3>
+
+                    <p float="left" color="light grey">
+                  Interaction is a tool to create and develop.
+                    </p>
+
+                </div>
+                 <div class="columnValues">
+ <img src="./assets/img/creativity.svg"style="width:120px; height:120px;margin-bottom: 15px;border-radius: 50%;">
+                    <h3 float="left" color="black">Creativity </h3>
+
+                   <!-- <p class="mt-1 text-sm">-->
+<p float="left" color="light grey">
+Uniqueness, creativity and individuality drive innovations.
+                    </p>
+
+                </div>
+      <div class="columnValues" style="margin-left: 20px; margin-right: 20px;">
+                    <img src="./assets/img/realiability.svg"style="width:120px; height:120px;margin-bottom: 15px;border-radius: 50%;">
+                    <h3 float="left" color="black">Reliability </h3>
+
+                    <p float="left" color="light grey">
+                        <!--We believe consistency to deliver reliable solutions is the key to building trust.-->
+                        Trust is a consistency of delivering reliable solutions.
+                    </p>
+
+
+                </div>
+      <div class="columnValues">
+ <img src="./assets/img/flexibility.svg"style="width:120px; height:120px;margin-bottom: 15px;border-radius: 50%;">
+                    <h3 float="left" color="black">Flexibility </h3>
+
+                    <p float="left" color="light grey">
+                       <!--We see changes and differences as not as complications, but as opportunities.-->
+Changes are not complications, but opportunities.
+
+                    </p>
+
+                </div>
+
+
+                </div>
+         </div>
+
+
+</section>
